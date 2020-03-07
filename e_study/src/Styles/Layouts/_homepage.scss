@@ -1,0 +1,33 @@
+.category{
+  background-color: #f2f3f5;
+  .category_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    .category_item {
+      display: block;
+      font-size: 18px;
+      font-weight: 400;
+      color: #1a1a1a;
+      border-bottom: 3px solid transparent;
+      cursor: pointer;
+      padding: 5px;
+      
+      &:hover{
+        color: #ffb606;
+      }
+
+      &.active{
+        color: #ffb606;
+        font-weight: 700;
+        padding-bottom: 2px;
+        border-bottom: 3px solid #ffb606;
+      }
+    }
+    // .category_item:active{
+        
+    // }
+   
+  }
+}
